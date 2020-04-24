@@ -20,11 +20,11 @@ def copy_rouge():
 
     print("files2rouge uses scripts and tools that will not be stored with "
           "the python package")
-    path = input(
-        "where do you want to save it? [default: %s]" % default_root)
+    #path = input(
+    #    "where do you want to save it? [default: %s]" % default_root)
 
-    if path == "":
-        path = default_root
+    #if path == "":
+    path = default_root
 
     rouge_data = os.path.join(path, "data")
     rouge_path = os.path.join(path, "ROUGE-1.5.5.pl")
